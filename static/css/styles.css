@@ -124,6 +124,7 @@
 }
 
 .cta-text h4 {
+  font-family: 'Comic Sans MS', sans-serif;
   color: #e3e2e4;
   font-size: 20px;
   font-weight: 600;
@@ -131,6 +132,7 @@
 }
 
 .cta-text span {
+  font-family: 'Comic Sans MS', sans-serif;
   color: #e3e2e4;
   font-size: 15px;
   overflow: hidden;
@@ -159,6 +161,7 @@
 /* FOOTER WIDGET 1 STARTS */
 
 .footer-text p {
+  font-family: 'Comic Sans MS', sans-serif;
   margin-bottom: 14px;
   font-size: 14px;
   color: #e3e2e4;
@@ -170,7 +173,7 @@
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -199,6 +202,7 @@
   background: #DD4B39;
 }
 .footer-widget-heading h3 {
+  font-family: 'Comic Sans MS', sans-serif;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -232,6 +236,7 @@
 }
 
 .footer-widget ul li a {
+  font-family: 'Comic Sans MS', sans-serif;
   color: #878787;
   text-transform: capitalize;
   text-decoration: none;
@@ -247,6 +252,7 @@
   overflow: hidden;
 }
 .subscribe-form input {
+  font-family: 'Comic Sans MS', sans-serif;
   width: 100%;
   padding: 14px 28px;
   background: #2E2E2E;
@@ -277,6 +283,7 @@
   padding: 25px 0;
 }
 .copyright-text p {
+  font-family: 'Comic Sans MS', sans-serif;
   margin: 0;
   font-size: 14px;
   color: #878787;
@@ -285,6 +292,7 @@
   color: #ff5e14;
 }
 .footer-menu li {
+  font-family: 'Comic Sans MS', sans-serif;
   display: inline-block;
   margin-left: 20px;
 }
@@ -292,6 +300,7 @@
   color: #ff5e14;
 }
 .footer-menu li a {
+  font-family: 'Comic Sans MS', sans-serif;
   font-size: 14px;
   color: #878787;
 }

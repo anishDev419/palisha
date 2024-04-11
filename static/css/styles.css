@@ -224,7 +224,6 @@
 
 /* FOOTER WIDGET 2 STARTS */
 
-
 .footer-widget ul li {
   display: inline-block;
   float: left;
@@ -242,8 +241,37 @@
   text-decoration: none;
 }
 
-
 /* FOOTER WIDGET 2 ENDS */
+
+
+/* FOOTER WIDGET 3 STARTS */
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+/* FOOTER WIDGET 3 ENDS */
 
 
 

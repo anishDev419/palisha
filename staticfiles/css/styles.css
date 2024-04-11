@@ -6,12 +6,13 @@
 
     /* WEBSITE STARTS */
 
-    body {
+    .body-content {
         background-color: #383838;
         display: flex;
         flex-direction: column;
         min-height: 100vh; /* Ensure the body fills the viewport */
     }
+
 
     .main-content{
         flex-grow: 1
@@ -24,8 +25,9 @@
 
 /* Transparent background for the navbar */
 .navbar {
-  background-color: transparent;
-  box-shadow: none; /* No shadow for a cleaner look */
+    background-color: #383838;
+    box-shadow: none; /* No shadow for a cleaner look */
+  width: 100%;
 }
 
 /* Padding for aesthetic spacing */
@@ -40,6 +42,7 @@
   display: flex;
   list-style: none;
   justify-content: space-around;
+  width: 100%;
 }
 
 .navbar .container .navbar-nav {
@@ -90,7 +93,7 @@
 }
 
 .footer-section {
-  background: grey;
+  background: #585858;
   position: relative;
 }
 
@@ -104,36 +107,55 @@
 }
 
 .single-cta {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
 }
 
 .single-cta i {
-  color: #ff5e14;
+  color: #ffeb00;
   font-size: 30px;
-  float: left;
   margin-top: 8px;
-  width: 100%;
-  display: inline-block;
-  flex: 1;
+  flex: 0 0 auto; /* Prevents <i> from growing or shrinking */
 }
 
 .cta-text {
   padding-left: 15px;
-  display: inline-block;
+  flex-grow: 1; /* Allows .cta-text to grow and fill the remaining space */
+  display: flex;
+  flex-direction: column; /* Stacks h4 and span vertically */
+  justify-content: center; /* Centers content vertically */
+  min-width: 200px; /* Adjust the min-width as needed */
 }
 
 .cta-text h4 {
-  color: #fff;
+  color: #e3e2e4;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 
 .cta-text span {
+  color: #e3e2e4;
   font-size: 15px;
-  white-space: nowrap; /* Prevents the text from wrapping to a new line */
-  overflow: hidden; /* Hides the overflowed text */
-  text-overflow: ellipsis; /* Adds an ellipsis to signify there's more text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+
+/* FOOTER IMG STARTS */
+
+.footer-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Centers the image in the div */
+    margin: 0 auto; /* Centers the div element horizontally */
+}
+
+.footer-logo img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* FOOTER IMG ENDS */
+
 /* FOOTER ENDS */

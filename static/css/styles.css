@@ -159,6 +159,9 @@
 
 /* FOOTER IMG ENDS */
 
+
+/* FOOTER WIDGET 1 STARTS */
+
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
@@ -193,6 +196,9 @@
 .twitter-bg{
   background: #55ACEE;
 }
+.instagram-bg {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
 .google-bg{
   background: #DD4B39;
 }
@@ -212,4 +218,33 @@
   width: 50px;
   background: #ff5e14;
 }
+
+/* FOOTER WIDGET 1 ENDS */
+
+
+/* FOOTER WIDGET 2 STARTS */
+
+
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+
+/* FOOTER WIDGET 2 ENDS */
+
+
+
 /* FOOTER ENDS */

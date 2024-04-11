@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100%">
 <head>
+
     {% load static %}
+
+    {% block imports %}
+
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+    {% endblock %}
+
     <meta charset="UTF-8">
     <title>{% block title %}Hungry Heroes Store{% endblock %}</title>
     <!-- Include your CSS stylesheets -->

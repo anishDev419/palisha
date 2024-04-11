@@ -27,7 +27,7 @@
 .navbar {
     background-color: #383838;
     box-shadow: none; /* No shadow for a cleaner look */
-  width: 100%;
+    width: 100%;
 }
 
 /* Padding for aesthetic spacing */
@@ -156,6 +156,11 @@
     height: auto; /* Maintain aspect ratio */
 }
 
+
 /* FOOTER IMG ENDS */
+
+.footer-text p {
+  color: #e3e2e4;
+}
 
 /* FOOTER ENDS */

@@ -34,7 +34,6 @@ class ProductImage(models.Model):
     is_thumbnail = models.BooleanField(default=False)
 
 
-
 class ProductType(models.Model):
     name = models.CharField(max_length=100)
 

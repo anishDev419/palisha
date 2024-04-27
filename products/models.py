@@ -29,8 +29,8 @@ class Product(models.Model):
 
 
 class ProductImage(models.Model):
-    product = models.ForeignKey('Product', on_delete=models.CASCADE)
-    image_url = models.URLField()
+    product = models.ForeignKey('Product', on_delete=models.CASCADE, default='1')
+    image = models.ImageField(upload_to='product_images/')
     is_thumbnail = models.BooleanField(default=False)
 
 

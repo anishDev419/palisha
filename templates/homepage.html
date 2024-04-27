@@ -5,6 +5,30 @@
 
 {% load static %}
 
+<style>
+
+   .carousel-item .img-container {
+        width: 170px;
+        height: 290px;
+        position: relative; /* Ensure the container establishes a positioning context */
+    }
+
+    .carousel-item .img-container img {
+        position: absolute; /* Position the image relative to its container */
+        top: 0; /* Align the image to the top of the container */
+        left: 0; /* Align the image to the left of the container */
+        width: 100%; /* Ensure the image takes the full width of the container */
+        height: 100%; /* Ensure the image takes the full height of the container */
+        object-fit: cover; /* Maintain the aspect ratio while covering the container */
+    }
+
+    .carousel-track{
+        width: 350px;
+    ]
+
+
+</style>
+
 <div class="container" >
     <div class="carousel">
         <div class="carousel-select w-75 mx-auto" >
@@ -12,12 +36,28 @@
 
                 <div class="carousel-track d-flex flex-nowrap ">
 
-                    {% for item in products %}
+
+                    {% for product in carousel %}
                     <div class="carousel-item">
-                        <p>{{ item }}</p>
+
+                        <div class="main-container" >
+                            <div class="img-container">
+                                <img src="{{ product.product_image }}" alt="{{ product.product_image }} Image">
+                            </div>
+
+                            <div class="detail-container">
+                                <p>{{ product.product_name }}</p>
+                            </div>
+                        </div>
+
+
+
                         <!-- You can also add additional HTML markup for each item -->
                     </div>
                     {% endfor %}
+
+
+
 
                 </div>
 
